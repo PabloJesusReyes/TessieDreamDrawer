@@ -1,0 +1,11 @@
+.navbar {
+    box-shadow: 2px 2px 2px #e78591;
+    opacity: .9;
+    ;
+}
+
+.navbar .nav-item .nav-link {
+    color: #e78591;
+    font-size:larger;
+    text-shadow: 0 0 10px #8a90af;
+}
