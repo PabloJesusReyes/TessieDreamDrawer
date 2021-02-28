@@ -5,24 +5,69 @@
 
 
 .navbar {
-    box-shadow: 2px 2px 2px #e78591;
-    opacity: .9;
-    ;
+    box-shadow: 4px 4px 4px #e78591;
+    position:sticky;
+    position:-webkit-sticky;
+    background:linear-gradient(55deg,#84cdbf, #4b1062, #84cdbf);
 }
 
 .navbar .nav-item .nav-link {
     color: #e78591;
     font-family: "../tipografias";
     font-size:220%;
+    margin-left: 20px;
     text-shadow: 
+        /* first layer at 1px */
+        -1px -1px 0px #fff,
+         0px -1px 0px #fff,
+         1px -1px 0px #fff,
+        -1px  0px 0px #fff,
+         1px  0px 0px #fff,
+        -1px  1px 0px #fff,
+         0px  1px 0px #fff,
+         1px  1px 0px #fff,
+        /* second layer at 2px */
         -2px -2px 0px #c0f7e9,
+        -1px -2px 0px #c0f7e9,
          0px -2px 0px #c0f7e9,
+         1px -2px 0px #c0f7e9,
          2px -2px 0px #c0f7e9,
-        -2px  0px 0px #c0f7e9,
+         2px -1px 0px #c0f7e9,
          2px  0px 0px #c0f7e9,
-        -2px  2px 0px #c0f7e9,
+         2px  1px 0px #c0f7e9,
+         2px  2px 0px #c0f7e9,
+         1px  2px 0px #c0f7e9,
          0px  2px 0px #c0f7e9,
-         2px  2px 0px #c0f7e9;
+        -1px  2px 0px #c0f7e9,
+        -2px  2px 0px #c0f7e9,
+        -2px  1px 0px #c0f7e9,
+        -2px  0px 0px #c0f7e9,
+        -2px -1px 0px #c0f7e9;
     font-family: Letras;
-       
 }
+.all {
+
+  background: url(../imagenes/hero.png);
+  background-size: cover;
+    background-position: top;
+    height: 90vh; /* el alto en función de la pantalla del visitante */
+}
+
+/* footer */
+.footer-style {
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.footer-icons{
+  font-size: 120%;
+}
+
+.btn-social {
+  margin-left: 10px;
+  color: #eb98a2;
+}
+
+.btn-social:hover{
+  color: #3c295e;
+}
+
