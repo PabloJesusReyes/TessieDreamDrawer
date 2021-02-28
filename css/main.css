@@ -1,3 +1,9 @@
+@font-face{
+    src:url('../tipografias/Magic\ Clause.ttf');
+    font-family: Letras;
+}
+
+
 .navbar {
     box-shadow: 2px 2px 2px #e78591;
     opacity: .9;
@@ -6,6 +12,17 @@
 
 .navbar .nav-item .nav-link {
     color: #e78591;
-    font-size:larger;
-    text-shadow: 0 0 10px #8a90af;
+    font-family: "../tipografias";
+    font-size:220%;
+    text-shadow: 
+        -2px -2px 0px #c0f7e9,
+         0px -2px 0px #c0f7e9,
+         2px -2px 0px #c0f7e9,
+        -2px  0px 0px #c0f7e9,
+         2px  0px 0px #c0f7e9,
+        -2px  2px 0px #c0f7e9,
+         0px  2px 0px #c0f7e9,
+         2px  2px 0px #c0f7e9;
+    font-family: Letras;
+       
 }
