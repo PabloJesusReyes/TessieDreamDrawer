@@ -16,7 +16,7 @@
     font-family: "../tipografias";
     font-size:220%;
     margin-left: 20px;
-    text-shadow: 
+    text-shadow: /* Para que el contorno quede mas fino*/
         /* first layer at 1px */
         -1px -1px 0px #fff,
          0px -1px 0px #fff,
@@ -49,8 +49,8 @@
 
   background: url(../imagenes/hero.png);
   background-size: cover;
-    background-position: top;
-    height: 90vh; /* el alto en función de la pantalla del visitante */
+  background-position: top;
+  height: 90vh; /* el alto en función de la pantalla del visitante */
 }
 
 /* footer */
