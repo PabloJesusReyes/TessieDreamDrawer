@@ -13,7 +13,7 @@
     margin-top: 160px;
   }
   .navbar {
-    background-image: url(../imagenes/banner.png);
+    background-image: url(../imagenes/PorfolioBanner.png);
     background-size: cover;
 
   }
@@ -65,7 +65,7 @@
     position: absolute;
     height: 50px;
     width: 100px;
-    background: #FFFFFF;
+    background: #3c295e;
     border-radius: 4px;
     font-family: 'Open Sans', sans-serif;
     font-size: 0.65em; 
@@ -77,7 +77,7 @@
     position: absolute;
     border-style: solid;
     border-width: 9px 0px 9px 9px;
-    border-color: transparent  #fff;
+    border-color: transparent  #3c295e;
     display: block;
     width: 0;
     z-index: 1;
@@ -87,6 +87,7 @@
   
   .level-two li {
     margin: 15px;
+    color:rgb(255, 255, 255);
   }
   
   .level-one:hover > .level-two {

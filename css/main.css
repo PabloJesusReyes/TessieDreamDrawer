@@ -45,8 +45,13 @@
         -2px -1px 0px #c0f7e9;
     font-family: Letras;
 }
-.all {
 
+.navbar .nav-item .nav-link:hover {
+  color: #3c295e;
+
+}
+.all {
+  
   background: url(../imagenes/hero.png);
   background-size: cover;
   background-position: top;

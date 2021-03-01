@@ -1,0 +1,112 @@
+<head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+         <!-- enlace a favicon -->
+         <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+        <!--enlace a font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--BOOTSTRAP CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!--MI CSS-->
+        <link rel="stylesheet" href="css/portfolioP.css">
+       
+    </head>
+    
+    <body>
+      <div class="container-fluid">
+    
+      <div class="cabecera">
+       <!--Icono para volver a la principal-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"><img src="imagenes/Navbartext1.png" alt="Tessie Dream Drawer">
+        </a>
+        </nav>   
+        <!--subnavbar-->
+      <ul class="nav nav-tabs justify-content-center fixed-top nav-fill ">
+        <li class="nav-item">
+          <a class="nav-link"  href="#" onclick="window.location.href='portfolioP.html'">Personal Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="selected" href="#" onclick="window.location.href='portfolioC.html'">Commissions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" onclick="window.location.href='portfolioF.html'">Fanart</a>
+        </li>
+      </ul>   
+      </div>
+  
+       <!-- The Modal -->
+       <div id="myModal" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+      </div>
+      
+      <div class="row no-gutters">
+        <div class="col-sm-11">
+          <!--Imagenes-->
+         
+   <div class="card-list">
+    <div class="card">
+     <img class="imagen" id="myImg1" src="imagenes/portfolio/commisions/Benjamin.png" alt="Card image cap">
+     </div>
+      <div class="card">
+        <img class="imagen" id="myImg2" src="imagenes/portfolio/commisions/Cameliaipad.png" alt="Card image cap">
+      </div>
+   <div class="card">
+      <img class="imagen" id="myImg3" src="imagenes/portfolio/commisions/Copia de Ami.png" alt="Card image cap">
+   </div>
+   <div class="card">
+     <img class="imagen" id="myImg4" src="imagenes/portfolio/commisions/Daniel.png" alt="Card image cap">
+    </div>
+    <div class="card">
+      <img class="imagen" id="myImg5" src="imagenes/portfolio/commisions/Kelly.png" alt="Card image cap">
+    </div>
+    <div class="card">
+     <img class="imagen" id="myImg6" src="imagenes/portfolio/commisions/party.png" alt="Card image cap">
+    </div>
+  </div>
+        </div>
+        <div class="col-sm-1">
+          <!--Barra de navegacion lateral-->
+    <ul id="nav-bar">
+      <li class="level-one" id="actual"><i class="fa fa-picture-o"></i>
+       <ul class="level-two">
+         <li>Portfolio</li>
+       </ul>
+      </li> 
+      <li class="level-one"><i class="fa fa-smile-o"></i>
+       <ul class="level-two">
+         <li>About</li>
+       </ul>
+      </li>
+        
+      <li class="level-one"><i class="fa fa-envelope-o"></i>
+        <ul class="level-two">
+         <li>Contact</li>
+        </ul>
+      </li>
+        
+      <li class="level-one"><i class="fa fa-gift"></i>
+        <ul class="level-two">
+         <li>Products</li>
+       </ul> 
+      </li>    
+     </ul>
+        </div>
+   
+    
+    
+      <!--MI JS-->
+      <script src="javascripts/portfolioP.js"></script>
+       <!--BOOTSTRAP JAVASCRIPT-->
+       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
