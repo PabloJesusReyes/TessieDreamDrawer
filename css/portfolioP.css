@@ -137,7 +137,9 @@
         -2px  0px 0px #c0f7e9,
         -2px -1px 0px #c0f7e9;
   }
-
+.nav-link:hover {
+  color: #eb98a2
+}
 #selected {
   color: #eb98a2;
 }
