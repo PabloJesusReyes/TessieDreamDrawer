@@ -1,0 +1,77 @@
+<head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Products</title>
+         <!-- enlace a favicon -->
+         <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon">
+        <!--enlace a font awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!--BOOTSTRAP CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!--MI CSS-->
+        <link rel="stylesheet" href="css/memopad.css">
+        <!--para que funcione el carousel-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="cabecera">
+        <!--Icono para volver a la principal-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"><img src="imagenes/Navbartext1.png" alt="Tessie Dream Drawer">
+        </a>
+        </nav>   
+    </div>
+    <button type="button" onclick="window.location.href='products.html'" class="btn btn-link btn-lg">Volver</button>
+  
+    
+    <div class="row">
+        <div class="col-xl-4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SUxQZEqLzy4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-xl-7">
+            <h1>Handmade Cute Desk Memopads</h1>
+            <br>
+            <h3>Descripition:</h3>
+            <p>This handmade notebook is perfect to have it on the desktop or take it anywhere. Write down all your notes, reminders or events in this pad.</p>
+            <br>
+            <br>
+            <h3>· Materials & sizes</h3>
+            <p>- Notepad aproximately 10x10cm in size</p>
+            <p>- 32 pages printed on 80gr paper</p>
+            <p>-Backed by a 200gr carton on the back</p>
+            <p>- The pad is wrapped in a bar to protect it during the journey.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="carousel">
+          <div class="a">
+            <div class="item">
+              <img class="imagen" src="imagenes/products/notepad/A.png" alt="noteA">
+            </div>
+          </div>
+          <div class="b">
+            <div class="item"> <img class="imagen" src="imagenes/products/notepad/B.png" alt="noteB">
+          </div>
+          </div>
+          <div class="c">
+            <div class="item"> <img class="imagen" src="imagenes/products/notepad/C.png" alt="noteC"></div>
+          </div>
+          <div class="d">
+            <div class="item"> <img class="imagen" src="imagenes/products/notepad/D.png" alt="noteD"></div>
+          </div>
+        </div>
+      
+      <div class="next"><i class="fa fa-angle-left"></i></div>
+      <div class="prev"><i class="fa fa-angle-right"></i></div>
+    </div>
+    </div>
+      <!--MI JS-->
+      <script src="javascripts/memopad.js"></script>
+</body>
