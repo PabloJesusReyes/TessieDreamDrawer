@@ -21,6 +21,7 @@
     .navbar {
       background-image: url(../imagenes/BannerAbout.png);
       background-size: cover;
+      border-bottom: 15px solid #dbf3ea;
   
     }
     body {

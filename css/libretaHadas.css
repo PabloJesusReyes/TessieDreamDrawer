@@ -1,0 +1,36 @@
+@font-face{
+    src:url('../tipografias/Magic\ Clause.ttf');
+    font-family: Letras;
+}
+  
+  
+* {  
+      margin: 0;
+      padding: 0;
+}
+    
+.col-sm-11 {
+    margin-top: 160px;
+}
+
+.navbar {
+    background-image: url(../imagenes/BannerProducts.png);
+    background-size: cover;
+    border-bottom: 15px solid #dbf3ea;
+}
+
+.btn {
+    display:block;
+    margin-top: 130px;
+    margin-left:auto;
+    margin-right: 15px;
+    border: 1px solid #bed1df;
+    background-color: #ca77a4;
+    color: #fff;
+    
+}
+
+.btn:hover {
+    background-color: #3c295e;
+    color:#fff;
+}

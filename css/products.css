@@ -1,0 +1,233 @@
+@font-face{
+    src:url('../tipografias/Magic\ Clause.ttf');
+    font-family: Letras;
+}
+  
+  
+* {  
+      margin: 0;
+      padding: 0;
+}
+    
+.col-sm-11 {
+    margin-top: 160px;
+}
+.navbar {
+    background-image: url(../imagenes/BannerProducts.png);
+    background-size: cover;
+    border-bottom: 15px solid #dbf3ea;
+}
+body {
+    background-color: #fffcf9;
+    }
+    
+#nav-bar {
+    margin-top:200px;
+    margin-left:auto;
+    max-width: 50px;
+    border: 1px solid #bed1df;
+    background-color: #ca77a4;
+    -webkit-box-shadow: -2px 3px 2px 0px rgba(5, 0, 0, 0.11);
+    -moz-box-shadow:    -2px 3px 2px 0px rgba(5, 0, 0, 0.11);
+    box-shadow:         -2px 3px 2px 0px rgba(5, 0, 0, 0.11);
+}
+    
+li {
+    color: #bed1df;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75em;
+    list-style: none;
+}
+    
+li.level-one {
+    font-size: 1.5em;
+    text-align: center;
+    border-top: 1px solid #bed1df;
+    cursor: pointer;
+}
+    
+li.level-one:hover {
+    background: #3c295e;
+}
+    
+i {
+    color: #ffffff; /* color de las imagenes*/
+    margin: 25%;
+}
+    
+.level-one {
+    position: relative;
+    }
+    
+    .level-two {
+    display: none;
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    background: #3c295e;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.65em; 
+    text-align: center;
+}
+    
+.level-two:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 9px 0px 9px 9px;
+    border-color: transparent  #3c295e;
+    display: block;
+    width: 0;
+    z-index: 1;
+    right: -9px;
+    top: 15px;
+}
+    
+.level-two li {
+    margin: 15px;
+    color:rgb(255, 255, 255);
+}
+    
+.level-one:hover > .level-two {
+    display: block;
+}
+    
+.level-two { /*para que se muestre a la derecha*/
+    right: 130%;
+    top: 0;
+}
+    
+.nav {
+    margin-top: 85px;
+    background-color: #dbf3ea;
+}
+  
+.nav-link {
+    font-family: Letras;
+    color: #3c295e;
+    font-size: 300%;
+    text-shadow: /* Para que el contorno quede mas fino*/
+        /* first layer at 1px */
+        -1px -1px 0px #fff,
+        0px -1px 0px #fff,
+        1px -1px 0px #fff,
+        -1px  0px 0px #fff,
+        1px  0px 0px #fff,
+        -1px  1px 0px #fff,
+        0px  1px 0px #fff,
+        1px  1px 0px #fff,
+        /* second layer at 2px */
+        -2px -2px 0px #c0f7e9,
+        -1px -2px 0px #c0f7e9,
+        0px -2px 0px #c0f7e9,
+        1px -2px 0px #c0f7e9,
+        2px -2px 0px #c0f7e9,
+        2px -1px 0px #c0f7e9,
+        2px  0px 0px #c0f7e9,
+        2px  1px 0px #c0f7e9,
+        2px  2px 0px #c0f7e9,
+        1px  2px 0px #c0f7e9,
+        0px  2px 0px #c0f7e9,
+        -1px  2px 0px #c0f7e9,
+        -2px  2px 0px #c0f7e9,
+        -2px  1px 0px #c0f7e9,
+        -2px  0px 0px #c0f7e9,
+        -2px -1px 0px #c0f7e9;
+}
+.nav-link:hover {
+    color: #eb98a2
+}
+#selected {
+    color: #eb98a2;
+}
+#actual {
+    background-color: #3c295e;
+}
+.imagen {
+    width: 100%;
+    max-width: 300;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+    
+}
+.imagen:hover {opacity: 0.7;}
+  
+  
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    padding-top:25px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+  
+    /* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 30%;
+    max-width: 700px;
+}
+  
+  /* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+  
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+  
+  /* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+  
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+  
+.card {
+    display: inline-block;
+    max-width: 17rem;
+    border-radius: 15px;
+    margin: 2rem;
+    margin-left: 3rem;
+    font-size: 1rem;
+    text-decoration: none;
+    overflow: hidden;
+    box-shadow: 1rem 1rem 2rem -1rem #3c295e6c;
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+}
+  
+.card-list {
+    margin-left: 25rem;
+}
+  
+  /* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+}
