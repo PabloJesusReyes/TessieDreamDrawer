@@ -106,7 +106,7 @@
 
   .nav-link {
     font-family: Letras;
-    color: #3c295e;
+    color: #eb98a2;
     font-size: 300%;
   
     text-shadow: /* Para que el contorno quede mas fino*/
@@ -138,10 +138,10 @@
         -2px -1px 0px #c0f7e9;
   }
 .nav-link:hover {
-  color: #eb98a2
+  color: #3c295e;
 }
 #selected {
-  color: #eb98a2;
+  color: #3c295e;
 }
 #actual {
   background-color: #3c295e;
